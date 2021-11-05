@@ -1,0 +1,110 @@
+
+body {
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	font-family: "PT Sans", sans-serif;
+}
+h1 {
+	color: #FC0254;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+/* Begin styling Navbar*/
+.navbar-light .navbar-nav .nav-link.active{
+	color:#FC0254;
+}
+.navbar-light .navbar-nav .nav-link.active:hover{
+	color:red;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #2b2b2b;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #FC0254;
+	font-weight: 500;
+}
+.navbar {
+	background-color: white;
+	height: 4.5em;
+	transition: 3s;
+}
+.navbar .navbar-nav {
+	border: none;
+	width: 100%;
+	padding-right: 2em;
+}
+.flag{
+	width: 25px;
+	height: 25px;
+}
+#container-navbar{
+	margin-right: 3em;
+}
+/* end styling Navbar*/
+/* begin styling footer*/
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #dbc3a3;
+	 /*background-color: transparent; */
+   color: black;
+   text-align: center;
+}
+.logo-univ{
+	/*margin-left: -1em; */
+}
+.info-footer{
+	background-color: none;
+	padding: 2em;
+	text-align: right;
+}
+.info-developer{
+	color: grey;
+	padding-top: 3em;
+	margin-bottom: -3em;
+}
+.info-developer a{
+	text-decoration: none;
+	color: grey;
+}
+.info-developer a:hover{
+	color: #FC0254
+}
+.fa-envelope{
+	color:#ff8f00;
+	font-size: 2em;
+}
+.fa-envelope:hover{
+	color:orange;
+}
+/* end styling footer*/
+
+
+#central{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+#container-inner {
+	background-color: gray;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.container h1 {
+	background-color: none;
+	padding-top: 10px;
+}
+/* For Small devices */
+@media (max-width: 991px) {
+ #navbarToggler-sm{
+	 margin-top: 0.5em;
+	 background-color:white;
+	 padding-right: 0px;
+ }
+ .navbar-nav > li > a:hover {
+ 	background-color: lightgray;
+ 	color: #fc0254;
+ }
+}
