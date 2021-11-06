@@ -1,6 +1,6 @@
 
 body {
-	background-color: #fff;
+	background-color: #b2b2b2;
 	margin: 0;
 	padding: 0;
 	font-family: "PT Sans", sans-serif;
@@ -10,7 +10,7 @@ h1 {
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
-/* Begin styling Navbar*/
+/* Styling Navbar*/
 .navbar-light .navbar-nav .nav-link.active{
 	color:#FC0254;
 }
@@ -41,8 +41,7 @@ h1 {
 #container-navbar{
 	margin-right: 3em;
 }
-/* end styling Navbar*/
-/* begin styling footer*/
+/* Styling footer*/
 .footer {
    left: 0;
    bottom: 0;
@@ -67,17 +66,17 @@ h1 {
 }
 .info-developer a{
 	text-decoration: none;
-	color: grey;
+	color: #FC0254;
 }
 .info-developer a:hover{
-	color: #FC0254
+	color: #FF52A4
 }
 .fa-envelope{
-	color:#ff8f00;
+	color:grey;
 	font-size: 2em;
 }
 .fa-envelope:hover{
-	color:orange;
+	color:darkgrey;
 }
 /* end styling footer*/
 
