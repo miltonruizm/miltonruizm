@@ -7,7 +7,6 @@ body {
 }
 h1 {
 	color: #FC0254;
-	margin-top: 25px;
 	margin-bottom: 25px;
 }
 /* Styling Navbar*/
@@ -40,6 +39,23 @@ h1 {
 }
 #container-navbar{
 	margin-right: 3em;
+}
+.pic-header{
+	margin-top: -40px;
+}
+.pic-self{
+	margin-top: 3em;
+}
+.pic-self p{
+	font-size: 1.25em;
+	/*margin-left: 2em;*/
+}
+/*.pic-self .img-fluid{
+	width:100%:
+	margin-top:4em;
+} */
+.pic-self .col-md-7{
+	margin: auto;
 }
 /* Styling footer*/
 .footer {
@@ -91,10 +107,7 @@ h1 {
 	padding-left: 20px;
 	padding-right: 20px;
 }
-.container h1 {
-	background-color: none;
-	padding-top: 10px;
-}
+
 /* For Small devices */
 @media (max-width: 991px) {
  #navbarToggler-sm{
