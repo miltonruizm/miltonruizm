@@ -10,7 +10,7 @@ h1 {
 	margin-bottom: 25px;
 }
 
-/* Styling Navbar*/
+/************************* Styling Navbar ***************************/
 .navbar-light .navbar-nav .nav-link.active{
 	color:#FC0254;
 }
@@ -67,7 +67,7 @@ h1 {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/*Styling main content */
+/***************** Styling personal content *****************/
 .pic-header{
 	margin-top: -40px;
 }
@@ -92,11 +92,15 @@ h1 {
 	margin: auto;
 }
 
-/* Styling research display */
+/***************** Styling research display *****************/
 .display-research h1{
 	text-align: center;
 	margin-bottom:0;
 	margin-top:3em;
+	padding-top:1em;
+}
+.display-research{
+	background-color: #EAEAEA;
 }
 .img-display{
   display: flex;
@@ -132,17 +136,35 @@ h1 {
   width: 100%;
   height: 100%;
 }
-
-/* Styling footer*/
+/***************** Styling News section *****************/
+.news{
+  padding-top: 2em;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	padding-left: 2em;
+	padding-right: 2em;
+	/*border-right: 1px solid black;*/
+}
+.news a{
+	color: Black;
+	text-decoration: none;
+}
+.news a:hover{
+	font-size: 115%;
+	transition:0.2s;
+	color: darkgrey;
+}
+/***************** Styling footer ************************/
 .footer {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: #dbc3a3;
+   background-color:  #f0d8c8;
 	 /*background-color: transparent; */
    color: black;
    text-align: center;
 }
+
 .logo-univ{
 	/*margin-left: -1em; */
 }
@@ -153,7 +175,7 @@ h1 {
 }
 .info-developer{
 	color: grey;
-	padding-top: 3em;
+	/*padding-top: 3em;*/
 	margin-bottom: -3em;
 }
 .info-developer a{
@@ -170,16 +192,16 @@ h1 {
 .fa-envelope:hover{
 	color:darkgrey;
 }
-/* end styling footer*/
 
 
-/* For large devices */
+
+/***************** For large devices *****************/
 @media (min-width: 992px) {
 .display-research-sm{
 	display: none;
 }
 }
-/* For Small devices */
+/***************** For Small devices *****************/
 @media (max-width: 991px) {
  #navbarToggler-sm{
 	 margin-top: 0.5em;
