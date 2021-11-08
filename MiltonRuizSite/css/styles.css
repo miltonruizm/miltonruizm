@@ -1,6 +1,6 @@
 
 body {
-	background-color: #b2b2b2;
+	background-color: white;
 	margin: 0;
 	padding: 0;
 	font-family: "PT Sans", sans-serif;
@@ -45,6 +45,7 @@ h1 {
 }
 .pic-self{
 	margin-top: 3em;
+	box-shadow: 0 20px 30px rgba(0,0,0,.6);
 }
 .pic-self p{
 	font-size: 1.25em;
@@ -59,6 +60,41 @@ h1 {
 }
 .pic-self .col-xl-7{
 	margin: auto;
+}
+/* Styling pictures display */
+#img-display{
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.6);
+  line-height: 0;
+	height:70%;
+}
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover;
+  transition: .5s;
+}
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 100%;
 }
 /* Styling footer*/
 .footer {
@@ -100,16 +136,7 @@ h1 {
 /* end styling footer*/
 
 
-#central{
-	margin-left: 0px;
-	margin-right: 0px;
-}
-#container-inner {
-	background-color: gray;
-	padding-top: 30px;
-	padding-left: 20px;
-	padding-right: 20px;
-}
+
 
 /* For Small devices */
 @media (max-width: 991px) {
