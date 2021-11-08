@@ -6,22 +6,22 @@ body {
 	font-family: "PT Sans", sans-serif;
 }
 h1 {
-	color: #FC0254;
+	color: #ce804c;
 	margin-bottom: 25px;
 }
 
 /************************* Styling Navbar ***************************/
 .navbar-light .navbar-nav .nav-link.active{
-	color:#FC0254;
+	color:#ce804c;
 }
 .navbar-light .navbar-nav .nav-link.active:hover{
-	color:red;
+	color:orange;
 }
 .navbar-light .navbar-nav .nav-link {
   color: #2b2b2b;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #FC0254;
+  color: #ce804c;
 	font-weight: 500;
 }
 .navbar {
@@ -76,6 +76,9 @@ h1 {
 	box-shadow: 0 20px 30px rgba(0,0,0,.6);
 	padding-top: 2em;
 	padding-bottom: 2em;
+}
+.pic-self h1{
+	font-weight: bolder;
 }
 .pic-self p{
 	font-size: 1.25em;
@@ -140,19 +143,38 @@ h1 {
 .news{
   padding-top: 2em;
 	margin-top: 3em;
-	margin-bottom: 3em;
+	/*margin-bottom: 3em;*/
 	padding-left: 2em;
 	padding-right: 2em;
 	/*border-right: 1px solid black;*/
 }
 .news a{
 	color: Black;
+	font-weight: bold;
 	text-decoration: none;
 }
 .news a:hover{
 	font-size: 115%;
 	transition:0.2s;
 	color: darkgrey;
+}
+.news ol {
+	list-style: none;
+	counter-reset: item;
+}
+.news li {
+	counter-increment: item;
+	margin-bottom: 10px;
+}
+.news li:before {
+	margin-right: 10px;
+	content: counter(item);
+	background: lightblue;
+	border-radius: 100%;
+	color: white;
+	width: 1.4em;
+	text-align: center;
+	display: inline-block;
 }
 /***************** Styling footer ************************/
 .footer {
@@ -193,8 +215,6 @@ h1 {
 	color:darkgrey;
 }
 
-
-
 /***************** For large devices *****************/
 @media (min-width: 992px) {
 .display-research-sm{
@@ -205,17 +225,26 @@ h1 {
 @media (max-width: 991px) {
  #navbarToggler-sm{
 	 margin-top: 0.5em;
-	 background-color:white;
+	 background-color:#eaeaea;
 	 padding-right: 0px;
  }
  .navbar-nav > li > a:hover {
  	background-color: lightgray;
- 	color: #fc0254;
+ 	color: #ce804c;
  }
  .navbar-toggler:hover{
-	 background-color: lightgray;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	/* background-color: #ce804c; */
  }
+.navbar-toggler{
+	border:none;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+		border: none;
+    box-shadow: none;
+}
  .display-research-lg{
 	 display:none;
  }
