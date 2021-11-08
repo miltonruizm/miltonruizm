@@ -46,6 +46,8 @@ h1 {
 .pic-self{
 	margin-top: 3em;
 	box-shadow: 0 20px 30px rgba(0,0,0,.6);
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 .pic-self p{
 	font-size: 1.25em;
