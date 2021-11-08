@@ -4,7 +4,7 @@
 
     <title>Milton Ruiz | Home</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,12 +13,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
-
     <script src="https://kit.fontawesome.com/74f02bae95.js" crossorigin="anonymous"></script>
 
   </head>
- <body>
 
+ <body>
   <!-- Navigation bar -->
   <nav class="navbar navbar-expand-lg navbar-light sticky-top">
     <div id="container-navbar" class="container d-flex justify-content-end">
@@ -41,8 +40,21 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Research</a>
           </li>
-          <li class="nav-item">
+          <!--<li class="nav-item">
             <a class="nav-link" href="https://ui.adsabs.harvard.edu/public-libraries/MT5SUPaQQdWI5uOOUuXJmg">Publications</a>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a class="nav-link"> Publications </a>
+              <div class="dropdown-content">
+              <a href="https://ui.adsabs.harvard.edu/public-libraries/MT5SUPaQQdWI5uOOUuXJmg">
+                <img src="svg/ads.svg"> NASA/ADS</a>
+              <a href="https://inspirehep.net/authors/1074637?ui-citation-summary=true#with-citation-summary">
+                <img src="svg/inspire.svg"> iNSPIRE</a>
+              <a href="https://arxiv.org/a/ruiz_m_1.html">
+                <img src="svg/arxiv.svg">arXiv</a>
+              <a href="https://scholar.google.de/citations?user=gH197zsAAAAJ&hl=en">
+                <img src="svg/google-scholar.svg"> Google</a>
+              </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#"><img class="flag" src="img/spanish.png"></a>
@@ -54,7 +66,6 @@
 
 <!-- home image -->
   <img src="img/01.jpg" class="img-fluid pic-header" alt="Milton Ruiz">
-
 
   <div class="container pic-self">
     <div class="row">
@@ -74,27 +85,60 @@
   </div>
 
 
-<!-- ZONA DE PRUEBAS -->
+<!-- Research section -->
+<section class="display-research display-research-lg">
+    <h1>Research</h1>
+    <div class="container img-display">
+      <div class="box">
+        <img src="img/01_display.jpg">
+        <span>Black Holes,</span>
+      </div>
+      <div class="box">
+        <img src="img/02_display.jpg">
+        <span>Neutron Stars</span>
+      </div>
+      <div class="box">
+        <img src="img/03_display.jpg">
+        <span>and</span>
+      </div>
+      <div class="box">
+        <img src="img/04_display.jpg">
+        <span> stuff</span>
+      </div>
+    </div>
+</section>
 
-<div class="container" id="img-display">
-  <div class="box">
-    <img src="img/01_display.jpg">
-    <span>Black Holes,</span>
-  </div>
-  <div class="box">
-    <img src="img/02_display.jpg">
-    <span>Neutron Stars</span>
-  </div>
-  <div class="box">
-    <img src="img/03_display.jpg">
-    <span>and</span>
-  </div>
-  <div class="box">
-    <img src="img/04_display.jpg">
-    <span> stuff</span>
-  </div>
-</div>
-<!-- FIN ZONA DE PRUEBAS -->
+    <!--For small devices -->
+    <section class="display-research display-research-sm">
+        <h1>Research</h1>
+        <div class="container img-display">
+          <div class="box">
+            <img src="img/01_display.jpg">
+            <span>Black Holes,</span>
+          </div>
+          <div class="box">
+            <img src="img/02_display.jpg">
+            <span>Neutron Stars</span>
+          </div>
+        </div>
+    </section>
+
+    <section class="display-research display-research-sm">
+        <div class="container img-display">
+          <div class="box">
+            <img src="img/03_display.jpg">
+            <span>and</span>
+          </div>
+          <div class="box">
+            <img src="img/04_display.jpg">
+            <span> stuff</span>
+          </div>
+        </div>
+    </section>
+
+<!-- End Research <section>
+
+</section> -->
 
   <br>
   <br>
