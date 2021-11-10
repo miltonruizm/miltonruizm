@@ -41,13 +41,15 @@ h1 {
 #container-navbar{
 	margin-right: 3em;
 }
+
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #ddd;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow:  0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+	/*border-radius: 25px; */
 }
 .dropdown-content a {
   float: none;
@@ -62,7 +64,13 @@ h1 {
 	padding-right: 15px;
 }
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: lightblue;
+	font-size:0;
+	/*border-radius:0px 15px 15px 0px; */
+}
+.dropdown-content a:hover img{
+  height: 50px;
+	padding-left: 30%;
 }
 .dropdown:hover .dropdown-content {
   display: block;
@@ -232,19 +240,59 @@ h1 {
  	background-color: lightgray;
  	color: #ce804c;
  }
- .navbar-toggler:hover{
-	/* background-color: #ce804c; */
- }
-.navbar-toggler{
-	border:none;
+#middle-line-menu{
+	margin-top:-3px;
+	margin-bottom:-3px;
+
 }
-.navbar-toggler:focus,
-.navbar-toggler:active,
+ .toggle {
+   position: absolute;
+   display: block;
+   cursor: pointer;
+	 border:none;
+	 bottom:0;
+ }
+ .toggle span {
+   display: block;
+   background: darkgrey;
+   width: 30px;
+   height: 4px;
+   border-radius: 3px;
+   transition: 0.25s margin 0.25s, 0.25s transform;
+ }
+ .toggle span:nth-child(1) {
+   margin-bottom: 8px;
+ }
+ .toggle span:nth-child(3) {
+   margin-top: 8px;
+ }
+ .toggle.active span {
+   transition: 0.25s margin, 0.25s transform 0.25s;
+ }
+ .toggle.active span:nth-child(1) {
+   margin-top: 8px;
+   margin-bottom: -4px;
+ }
+ .toggle.active span:nth-child(1),
+ .toggle.active span:nth-child(2) {
+   transform: rotate(45deg);
+ }
+ .toggle.active span:nth-child(3) {
+   margin-top: -4px;
+   transform: rotate(135deg);
+ }
+
+.toggle:focus,
+.toggle:active,
 .navbar-toggler-icon:focus {
     outline: none;
 		border: none;
     box-shadow: none;
 }
+.dropdown-content{
+	 right:50%;
+}
+
  .display-research-lg{
 	 display:none;
  }

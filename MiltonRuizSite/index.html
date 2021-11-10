@@ -13,21 +13,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
-    <script src="https://kit.fontawesome.com/74f02bae95.js" crossorigin="anonymous"></script>
-
   </head>
 
  <body>
   <!-- Navigation bar -->
   <nav class="navbar navbar-expand-lg navbar-light sticky-top">
     <div id="container-navbar" class="container d-flex justify-content-end">
-      <button id="navbarToggle" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      <button id="navbarToggle" class="navbar-toggler toggle sticky-top" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarToggler" aria-controls="navbarToggler"
         aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span></span>
+        <span id="middle-line-menu"></span>
+        <span></span>
+      <!--  <span class="navbar-toggler-icon"></span> -->
       </button>
+
+
       <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav justify-content-end text-center" id="navbarToggler-sm">
+
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
@@ -40,11 +44,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Research</a>
           </li>
-          <!--<li class="nav-item">
-            <a class="nav-link" href="https://ui.adsabs.harvard.edu/public-libraries/MT5SUPaQQdWI5uOOUuXJmg">Publications</a>
-          </li> -->
           <li class="nav-item dropdown">
             <a class="nav-link"> Publications </a>
+
               <div class="dropdown-content">
               <a href="https://ui.adsabs.harvard.edu/public-libraries/MT5SUPaQQdWI5uOOUuXJmg">
                 <img src="svg/ads.svg"> NASA/ADS</a>
@@ -91,15 +93,15 @@
     <div class="container img-display">
       <div class="box">
         <img src="img/01_display.jpg">
-        <span>Black Holes,</span>
+        <span>Please,</span>
       </div>
       <div class="box">
         <img src="img/02_display.jpg">
-        <span>Neutron Stars</span>
+        <span>Change</span>
       </div>
       <div class="box">
         <img src="img/03_display.jpg">
-        <span>and</span>
+        <span>this</span>
       </div>
       <div class="box">
         <img src="img/04_display.jpg">
@@ -203,8 +205,8 @@
         </div>
       </div>
       <div class="info-developer">
-        <p>&copy; 2021 Developed and designed by
-        <a href="https://github.com/andreagc78">  Andrea Gutiérrez </a>
+        <p>&copy; 2021 Designed and Developed by
+        <a href="https://github.com/andreagc78"> Mateo Ruiz and Andrea Gutiérrez </a>
         </p>
       </div>
     </footer>
@@ -216,6 +218,5 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
-
   </body>
 </html>

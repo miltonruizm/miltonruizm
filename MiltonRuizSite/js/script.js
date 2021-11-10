@@ -1,14 +1,19 @@
 // makes navbar toggler disappear when clicking somwhere else in the page
-$(function () {
-  $("#navbarToggle").blur(function (event) {
-    var screenWidth = window.innerWidth;
-    if (screenWidth < 992) {
-      $("#navbarToggler").collapse('hide');
-    }
-  });
-  $("#navbarToggle").click(function (event) {
-    $(event.target).focus();
-  });
+//$(function () {
+//  $("#navbarToggle").blur(function (event) {
+//    var screenWidth = window.innerWidth;
+//    if (screenWidth < 992) {
+//      $("#navbarToggler").collapse('hide');
+//    }
+//  });
+//  $("#navbarToggle").click(function (event) {
+//    $(event.target).focus();
+//  });
+//});
+
+// changes the aspect of the toggler button when active
+$(".toggle").click(function () {
+$(this).toggleClass("active");
 });
 
 // makes navbar change color when scrolling
