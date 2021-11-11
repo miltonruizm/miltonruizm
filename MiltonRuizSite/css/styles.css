@@ -261,7 +261,7 @@ h1 > a:hover{
  }
  .toggle span {
    display: block;
-   background: darkgrey;
+   background: #505050;
    width: 30px;
    height: 4px;
    border-radius: 3px;
