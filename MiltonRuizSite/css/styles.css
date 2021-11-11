@@ -6,13 +6,13 @@ body {
 	font-family: "PT Sans", sans-serif;
 }
 h1 {
-	color: #ce804c;
+	color: #CA6702;
 	margin-bottom: 25px;
 }
 
 /************************* Styling Navbar ***************************/
 .navbar-light .navbar-nav .nav-link.active{
-	color:#ce804c;
+	color:#CA6702;
 }
 .navbar-light .navbar-nav .nav-link.active:hover{
 	color:orange;
@@ -21,7 +21,7 @@ h1 {
   color: #2b2b2b;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #ce804c;
+  color: #CA6702;
 	font-weight: 500;
 }
 .navbar {
@@ -45,7 +45,7 @@ h1 {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #ddd;
+  background-color: #E9D8A6;
   min-width: 160px;
   box-shadow:  0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -64,13 +64,13 @@ h1 {
 	padding-right: 15px;
 }
 .dropdown-content a:hover {
-  background-color: lightblue;
+  background-color: #EE9B00;
 	font-size:0;
 	/*border-radius:0px 15px 15px 0px; */
 }
 .dropdown-content a:hover img{
-  height: 50px;
-	padding-left: 30%;
+  height: 35px;
+	padding-left: 40%;
 }
 .dropdown:hover .dropdown-content {
   display: block;
@@ -177,7 +177,7 @@ h1 {
 .news li:before {
 	margin-right: 10px;
 	content: counter(item);
-	background: lightblue;
+	background: #0A9396;
 	border-radius: 100%;
 	color: white;
 	width: 1.4em;
@@ -189,7 +189,7 @@ h1 {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color:  #f0d8c8;
+   background-color:  #1FDAFF;
 	 /*background-color: transparent; */
    color: black;
    text-align: center;
@@ -210,10 +210,10 @@ h1 {
 }
 .info-developer a{
 	text-decoration: none;
-	color: #FC0254;
+	color: #EE9B00;
 }
 .info-developer a:hover{
-	color: #FF52A4
+	color: #FFAD0A;
 }
 .fa-envelope{
 	color:grey;
@@ -238,7 +238,7 @@ h1 {
  }
  .navbar-nav > li > a:hover {
  	background-color: lightgray;
- 	color: #ce804c;
+ 	color: #EE9B00;
  }
 #middle-line-menu{
 	margin-top:-3px;

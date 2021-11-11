@@ -21,7 +21,7 @@ var a = $(".navbar").offset().top;
 $(document).scroll(function() {
 if ($(this).scrollTop() > a) {
 $('.navbar').css({
-  "background": "#f0d8c8"
+  "background": "#1FDAFF"
  //"background": "rgba(255,255,255,0.5)"
 });
 } else {
