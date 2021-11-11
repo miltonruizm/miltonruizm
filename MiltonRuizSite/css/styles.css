@@ -197,7 +197,7 @@ h1 > a:hover{
    bottom: 0;
    width: 100%;
    background-color:  #1FDAFF;
-	 /*background-color: transparent; */
+	 margin-top: 3em;
    color: black;
    text-align: center;
 }
