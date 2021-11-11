@@ -76,6 +76,16 @@ h1 {
   display: block;
 }
 /***************** Styling personal content *****************/
+
+/* pruebas*/
+/*.pruebita{
+background: hsla(54, 100%, 55%, 1);
+background: linear-gradient(90deg, hsla(54, 100%, 55%, 1) 0%, hsla(0, 100%, 47%, 1) 100%);
+background: -moz-linear-gradient(90deg, hsla(54, 100%, 55%, 1) 0%, hsla(0, 100%, 47%, 1) 100%);
+background: -webkit-linear-gradient(90deg, hsla(54, 100%, 55%, 1) 0%, hsla(0, 100%, 47%, 1) 100%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFE819", endColorstr="#F00000", GradientType=1 );
+}*/
+
 .pic-header{
 	margin-top: -40px;
 }
@@ -87,6 +97,7 @@ h1 {
 }
 .pic-self h1{
 	font-weight: bolder;
+	border-bottom: solid 2px #ffe6cd;
 }
 .pic-self p{
 	font-size: 1.25em;
@@ -109,6 +120,7 @@ h1 {
 	margin-bottom:0;
 	margin-top:3em;
 	padding-top:1em;
+/*	border-bottom: solid 2px #ffe6cd; */
 }
 h1 > a{
 	color: #CA6702;
@@ -191,6 +203,9 @@ h1 > a:hover{
 	text-align: center;
 	display: inline-block;
 }
+.news h1{
+	border-bottom: solid #ffe6cd 2px;
+}
 /***************** Styling footer ************************/
 .footer {
    left: 0;
@@ -231,7 +246,9 @@ h1 > a:hover{
 }
 /***************** Styling Bio page *****************/
 .bio-header h1{
+	text-align: left;
 	margin-top: 2em;
+		border-bottom: solid 2px #ffe6cd;
 }
 .bio-header div .info{
 	text-align: right;
