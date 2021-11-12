@@ -11,7 +11,7 @@
 //  });
 //});
 
-// changes the aspect of the toggler button when active
+// changes the aspect of the toggler button when active to an X
 $(".toggle").click(function () {
 $(this).toggleClass("active");
 });
@@ -21,12 +21,24 @@ var a = $(".navbar").offset().top;
 $(document).scroll(function() {
 if ($(this).scrollTop() > a) {
 $('.navbar').css({
-  "background": "#1FDAFF"
- //"background": "rgba(255,255,255,0.5)"
+  "background": "#102e50"
 });
 } else {
 $('.navbar').css({
   "background": "white"
+});
+}
+});
+
+var a = $(".nav-link").offset().top;
+$(document).scroll(function() {
+if ($(this).scrollTop() > a) {
+$('.nav-link').css({
+  "color": "#d4dae2"
+});
+} else {
+$('.nav-link').css({
+  "color": "#999999"
 });
 }
 });
