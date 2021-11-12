@@ -297,7 +297,6 @@ h1 > a:hover{
 .nav-link a:hover{
  border-bottom: hidden
 }
- }
 #middle-line-menu{
 	margin-top:-3px;
 	margin-bottom:-3px;
@@ -339,7 +338,6 @@ h1 > a:hover{
    margin-top: -4px;
    transform: rotate(135deg);
  }
-
 .toggle:focus,
 .toggle:active,
 .navbar-toggler-icon:focus {
@@ -350,7 +348,6 @@ h1 > a:hover{
 .dropdown-content{
 	 right:50%;
 }
-
  .display-research-lg{
 	 display:none;
  }
