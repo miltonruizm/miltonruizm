@@ -79,20 +79,12 @@ h1 {
 }
 /***************** Styling personal content *****************/
 
-/* pruebas*/
-/*.pruebita{
-background: hsla(54, 100%, 55%, 1);
-background: linear-gradient(90deg, hsla(54, 100%, 55%, 1) 0%, hsla(0, 100%, 47%, 1) 100%);
-background: -moz-linear-gradient(90deg, hsla(54, 100%, 55%, 1) 0%, hsla(0, 100%, 47%, 1) 100%);
-background: -webkit-linear-gradient(90deg, hsla(54, 100%, 55%, 1) 0%, hsla(0, 100%, 47%, 1) 100%);
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFE819", endColorstr="#F00000", GradientType=1 );
-}*/
-
 .pic-header{
 	margin-top: -40px;
 }
 .pic-self{
 	margin-top: 3em;
+	margin-bottom: 3em;
 	box-shadow: 0 20px 30px rgba(0,0,0,.6);
 	padding-top: 2em;
 	padding-bottom: 2em;
@@ -230,7 +222,7 @@ h1 > a:hover{
 	color:#d4dae2;
 }
 .info-developer{
-	color: grey;
+	color: #e5e4e2;
 	/*padding-top: 3em;*/
 	margin-bottom: -3em;
 }

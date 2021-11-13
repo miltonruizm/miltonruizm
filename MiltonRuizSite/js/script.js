@@ -42,3 +42,6 @@ $('.nav-link').css({
 });
 }
 });
+
+// get current year in footer
+document.getElementById("year").innerHTML = new Date().getFullYear();

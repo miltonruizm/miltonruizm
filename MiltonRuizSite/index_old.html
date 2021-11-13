@@ -11,15 +11,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet" rel="stylesheet">
-    <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/slider.css">
 
   </head>
 
  <body>
-  <!-- Navigation bar begins-->
+  <!-- Navigation bar -->
   <nav class="navbar navbar-expand-lg navbar-light sticky-top">
     <div id="container-navbar" class="container d-flex justify-content-end">
       <button id="navbarToggle" class="navbar-toggler toggle sticky-top" type="button" data-bs-toggle="collapse"
@@ -67,10 +65,10 @@
       </div>
     </div>
   </nav>
-  <img src="img/01.jpg" class="img-fluid pic-header" alt="Milton Ruiz">
-  <!-- Navigation bar ends -->
 
-  <!-- HOME MAIN PERSONAL SECTION BEGINS -->
+<!-- home image -->
+  <img src="img/01.jpg" class="img-fluid pic-header" alt="Milton Ruiz">
+
   <div class="container pic-self">
     <div class="row">
       <div class="col-lg-8 col-md-7 col-xl-7" >
@@ -86,101 +84,63 @@
       <div class="col-lg-4 col-md-5 col-xl-3">
         <img src="img/02.jpg" class="img-fluid" alt="Milton Ruiz" >
       </div>
+
     </div>
   </div>
-<!-- HOME MAIN PERSONAL SECTION ENDS -->
-
-<!-- S L I D E R   B E G I N S-->
-<div class="slider">
-  <div class="container app">
-  	<div class="cardList">
-  		<button class="cardList__btn btn btn--left">
-  			<div class="icon">
-  				<svg>
-  					<use xlink:href="#arrow-left"></use>
-  				</svg>
-  			</div>
-  		</button>
-
-  		<div class="cards__wrapper">
-  			<div class="card current--card">
-  				<div class="card__image">
-  					<img src="img/01_display.jpg" alt="" />
-  				</div>
-  			</div>
-
-  			<div class="card next--card">
-  				<div class="card__image">
-  					<img src="img/02_display.jpg" alt="" />
-  				</div>
-  			</div>
-
-  			<div class="card previous--card">
-  				<div class="card__image">
-  					<img src="img/03_display.jpg" alt="" />
-  				</div>
-  			</div>
-  		</div>
-
-  		<button class="cardList__btn btn btn--right">
-  			<div class="icon">
-  				<svg>
-  					<use xlink:href="#arrow-right"></use>
-  				</svg>
-  			</div>
-  		</button>
-  	</div>
-
-  	<div class="infoList">
-  		<div class="info__wrapper">
-  			<div class="info current--info">
-  				<h1 class="text name">Please</h1>
-  				<h4 class="text location">Scotland</h4>
-  				<p class="text description">The mountains are calling</p>
-  			</div>
-
-  			<div class="info next--info">
-  				<h1 class="text name">Change</h1>
-  				<h4 class="text location">Peru</h4>
-  				<p class="text description">Adventure is never far away</p>
-  			</div>
-
-  			<div class="info previous--info">
-  				<h1 class="text name">This</h1>
-  				<h4 class="text location">France</h4>
-  				<p class="text description">Let your dreams come true</p>
-  			</div>
-  		</div>
-  	</div>
-
-  	<div class="app__bg">
-  		<div class="app__bg__image current--image">
-  			<img src="img/01_display.jpg" alt="" />
-  		</div>
-  		<div class="app__bg__image next--image">
-  			<img src="img/02_display.jpg" alt="" />
-  		</div>
-  		<div class="app__bg__image previous--image">
-  			<img src="img/03_display.jpg" alt="" />
-  		</div>
-  	</div>
-  </div>
 
 
-  <svg class="icons" style="display: none;">
-  	<symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
-  		<polyline points='328 112 184 256 328 400'
-  					 style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
-  	</symbol>
-  	<symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
-  		<polyline points='184 112 328 256 184 400'
-  					 style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
-  	</symbol>
-  </svg>
-</div>
-<!-- S L I D E R    E N D S -->
+<!-- Research section -->
+<section class="display-research display-research-lg">
+    <h1><a class="research-link" href="https://ui.adsabs.harvard.edu/public-libraries/MT5SUPaQQdWI5uOOUuXJmg">Research</a></h1>
+    <div class="container img-display">
+      <div class="box">
+        <img src="img/01_display.jpg">
+        <span>Please,</span>
+      </div>
+      <div class="box">
+        <img src="img/02_display.jpg">
+        <span>Change</span>
+      </div>
+      <div class="box">
+        <img src="img/03_display.jpg">
+        <span>this</span>
+      </div>
+      <div class="box">
+        <img src="img/04_display.jpg">
+        <span> stuff</span>
+      </div>
+    </div>
+</section>
 
-<!-- NEWS SECTION BEGINS -->
+    <!--For small devices -->
+    <section class="display-research display-research-sm">
+        <h1><a class="research-link" href="https://ui.adsabs.harvard.edu/public-libraries/MT5SUPaQQdWI5uOOUuXJmg">Research</a></h1>
+        <div class="container img-display">
+          <div class="box">
+            <img src="img/01_display.jpg">
+            <span>Black Holes,</span>
+          </div>
+          <div class="box">
+            <img src="img/02_display.jpg">
+            <span>Neutron Stars</span>
+          </div>
+        </div>
+    </section>
+
+    <section class="display-research display-research-sm">
+        <div class="container img-display">
+          <div class="box">
+            <img src="img/03_display.jpg">
+            <span>and</span>
+          </div>
+          <div class="box">
+            <img src="img/04_display.jpg">
+            <span> stuff</span>
+          </div>
+        </div>
+    </section>
+
+<!-- End Research -->
 <section>
   <div class="container">
     <div class="row">
@@ -224,8 +184,6 @@
     </div>
   </div>
 </section>
-<!-- NEWS SECTION ENDS -->
-
 
 <!-- Footer begins -->
 <div class="footer">
@@ -249,7 +207,7 @@
         </div>
       </div>
       <div class="info-developer">
-        <p>&copy; <span id="year"></span> Designed and Developed by Mateo Ruiz and
+        <p>&copy; Designed and Developed by Mateo Ruiz and
         <a href="https://github.com/andreagc78">  Andrea Gutiérrez </a>
         </p>
       </div>
@@ -257,13 +215,11 @@
   </div>
 </div>
 
+
     <!-- JavaScript Bootstrap Bundle with Popper -->
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
-    <script src="js/slider.js"></script>
-
+  <!--  <script src="js/slider.js"></script> -->
   </body>
 </html>
