@@ -296,11 +296,18 @@
 
 @media (max-width: 767px){
     .cardList__btn.btn--left {
-   	 left: 10%;
+   	 left: 15%;
    }
    .cardList__btn.btn--right {
-  	 right: 10%;
+  	 right: 15%;
   }
+  .info .location::before, .info .location::after {
+ 	 content: "";
+ 	 position: absolute;
+ 	 background: transparent;
+ 	 left: 0%;
+ 	 transform: translate(calc(-1 * var(--mg-left)), -50%);
+ }
 }
 @media (max-width: 991px) {
     .info .name{
@@ -313,6 +320,7 @@
       font-size: 1em;
     }
 }
+
 @media only screen and (min-width: 800px) {
 	 :root {
 		 --card-width: 250px;
