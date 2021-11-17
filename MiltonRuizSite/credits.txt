@@ -1,0 +1,15 @@
+Images
+
+01.jpg:
+https://pixabay.com/illustrations/space-science-fiction-cosmos-911785/
+
+
+
+
+Software:
+
+Voyage Slider:
+https://codepen.io/dev_loop/pen/MWKbJmO/license
+
+CSS Image hover zoom effects:
+https://w3bits.com/css-image-hover-zoom/
