@@ -252,8 +252,10 @@ h1 > a:hover{
 }
 
 .logo-univ img{
- height: 150px;
- padding-top:50px;
+ /*height: 150px;
+ padding-top:50px; */
+ width:100%;
+ padding-top: 2em;
 }
 .info-footer{
 	background-color: none;
@@ -304,7 +306,23 @@ h1 > a:hover{
 }
 .clear{
 	clear: right;
+}
+/***************** Styling Research page *****************/
+.color img{
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1s ease;
+}
+.color img:hover{
+filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 1s ease;
+}
 
+.research-col{
+	padding-top: 3em;
 }
 /***************** For large devices *****************/
 @media (min-width: 992px) {
@@ -381,6 +399,9 @@ h1 > a:hover{
 	 right:50%;
 }
 
+.logo-univ img{
+	width:80%;
+}
 .textover h4{
   font-family: "Nothing You Could Do", cursive;
 	font-size: 1em;
