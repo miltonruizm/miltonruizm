@@ -16,7 +16,7 @@ $(".toggle").click(function () {
 $(this).toggleClass("active");
 });
 
-// makes navbar change color when scrolling
+// makes all navbar(s) color changes when scrolling
 var a = $(".navbar").offset().top;
 $(document).scroll(function() {
 if ($(this).scrollTop() > a) {
@@ -42,6 +42,9 @@ $('.nav-link').css({
 });
 }
 });
+
+
+
 
 // get current year in footer
 document.getElementById("year").innerHTML = new Date().getFullYear();
