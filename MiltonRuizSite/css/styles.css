@@ -239,6 +239,9 @@ h1 > a:hover{
 .news h1{
 	border-bottom: solid #ffe6cd 2px;
 }
+.news h5{
+	border-bottom: solid #ffe6cd 1px;
+}
 /***************** Styling footer ************************/
 .footer {
    left: 0;
@@ -290,6 +293,16 @@ h1 > a:hover{
 	color: #CA6702;
 	border-bottom: solid 2px #ffe6cd;
 }
+.bio a{
+	color: #282828;
+	font-weight: bold;
+	text-decoration: none;
+}
+.bio a:hover{
+	font-size: 110%;
+	transition:0.2s;
+	color: darkgrey;
+}
 .bio-header div .info{
 	text-align: right;
 }
@@ -301,11 +314,12 @@ h1 > a:hover{
 }
 .bio-pic{
 	width:80%;
-	padding-bottom: 4em;
+	padding-bottom: 2.5em;
 }
 .clear{
 	clear: right;
 }
+
 /***************** Styling Research page *****************/
 .research h1{
 	text-align: left;
