@@ -242,6 +242,14 @@ h1 > a:hover{
 .news h5{
 	border-bottom: solid #ffe6cd 1px;
 }
+.posted-date{
+		color:#606060;
+		text-align: right;
+		font-style: italic;
+		font-size: 80%;
+		border-bottom: solid #ffe6cd 1px;
+
+}
 /***************** Styling footer ************************/
 .footer {
    left: 0;
@@ -326,6 +334,11 @@ h1 > a:hover{
 	margin-top: 2em;
 	border-bottom: solid 2px #ffe6cd;
 }
+.research-header h1:hover{
+	font-size: 2.8em;
+	transition: 0.2s;
+	color: #d9944d;
+}
 .research-header h2{
 	color: #CA6702
 }
@@ -340,8 +353,29 @@ h1 > a:hover{
 }
 .research-header img{
 	width:90%;
+}
+.research-header p{
+	font-size: 1.25em;
+}
+.research-header a{
+	text-decoration: none;
 
 }
+.research-header a >h2:hover{
+ font-size: 2.1em;
+ transition: 0.2s;
+ color: #d9944d;
+}
+.research-paragraph p{
+	margin-top: 2em;
+}
+.research-paragraph h2{
+	text-align: left;
+	margin-top: 1em;
+	border-bottom: solid 2px #ffe6cd;
+	margin-bottom: 1em;
+}
+
 /*CSS Image hover zoom effects
 https://w3bits.com/css-image-hover-zoom/ : */
 
@@ -384,6 +418,20 @@ https://w3bits.com/css-image-hover-zoom/ : */
 }
 .research-text{
 	width:90%;
+}
+.read-more a{
+	color:darkorange;
+	font-style: italic;
+}
+.read-more a:hover{
+	color:orange;
+	font-style: italic;
+	font-size: 110%;
+  transition: 0.2s;
+
+}
+.read-more {
+	text-align: right;
 }
 /***************** Styling Team page *****************/
 .color-tab:hover{
