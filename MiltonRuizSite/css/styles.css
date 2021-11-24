@@ -397,6 +397,7 @@ https://w3bits.com/css-image-hover-zoom/ : */
 	 margin-top: 0.5em;
 	 background-color:#102e50;
 	 padding-right: 0px;
+
  }
  #navbarToggler-sm >li:hover{
 	 background-color: #1a4a81;
@@ -419,6 +420,7 @@ https://w3bits.com/css-image-hover-zoom/ : */
    cursor: pointer;
 	 border:none;
 	 bottom:0;
+
  }
  .toggle span {
    display: block;
@@ -463,14 +465,15 @@ https://w3bits.com/css-image-hover-zoom/ : */
 	width:80%;
 }
 .textover h1{
-	margin-bottom: -0.5em;
+	margin-bottom: -0.3em;
 	border-bottom: none;
 }
 .textover h4{
   font-family: "Nothing You Could Do", cursive;
-	font-size: 1em;
+	font-size: 0.9em;
 	font-weight: bold;
 	color: #fac564;
+	margin-bottom: 0.1em;
 }
  .display-research-lg{
 	 display:none;
