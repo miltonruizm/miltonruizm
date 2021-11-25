@@ -21,16 +21,42 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+    <link rel="stylesheet" href="css/preloader.css">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/preloader.css">
+
+
 
 
   </head>
 
  <body>
-  <!-- Preloader Walking Duck-->
-<div id="preloader"></div>
+  <!-- Preloder -->
+  <div id="preloder">
+    <div class="cloud cloud--1"></div>
+    <div class="cloud cloud--2"></div>
+    <div class="cloud cloud--3"></div>
+    <div class="cloud cloud--4"></div>
+
+    <div class="duck__wrapper">
+      <div class="duck">
+        <div class="duck duck__inner">
+          <div class="duck__mouth"></div>
+          <div class="duck__head">
+            <div class="duck__eye"></div>
+            <div class="duck__eye--shadow"></div>
+            <div class="duck__white"></div>
+          </div>
+          <div class="duck__body"></div>
+          <div class="duck__wing"></div>
+        </div>
+        <div class="duck__foot duck__foot--1"></div>
+        <div class="duck__foot duck__foot--2"></div>
+        <div class="surface"></div>
+      </div>
+    </div>
+  </div>
+
   <!-- Navigation bar begins-->
   <nav class="navbar navbar-expand-lg navbar-light sticky-top">
     <div id="container-navbar" class="container d-flex justify-content-end">
@@ -109,6 +135,8 @@
     </div>
   </div>
 <!-- HOME MAIN PERSONAL SECTION ENDS -->
+
+
 
 <!-- S L I D E R   B E G I N S-->
 <div class="container">
@@ -298,16 +326,6 @@
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
     <script src="js/slider.js"></script>
-
-    <script>
-    jQuery(document).ready(function ($) {
-    $(window).load(function () {
-      $("#preloader").fadeOut("slow", function () {
-        $(this).remove();
-      });
-    });
-  });
-    </script>
 
   </body>
 </html>

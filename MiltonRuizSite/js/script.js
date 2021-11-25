@@ -1,22 +1,25 @@
-// makes navbar toggler disappear when clicking somwhere else in the page
-//$(function () {
-//  $("#navbarToggle").blur(function (event) {
-//    var screenWidth = window.innerWidth;
-//    if (screenWidth < 992) {
-//      $("#navbarToggler").collapse('hide');
-//    }
-//  });
-//  $("#navbarToggle").click(function (event) {
-//    $(event.target).focus();
-//  });
-//});
+/*------------------
+  Preloder
+--------------------*/
+'use strict';
 
-// changes the aspect of the toggler button when active to an X
+$(window).on('load', function() {
+	$(".loader").fadeOut();
+	$("#preloder").delay(400).fadeOut("slow");
+});
+
+/*------------------
+  Changes the aspect of the toggler button when active to an X:
+--------------------*/
+
 $(".toggle").click(function () {
 $(this).toggleClass("active");
 });
 
-// makes all navbar(s) color changes when scrolling
+/*------------------
+  Makes all navbar(s) color changes when scrolling:
+--------------------*/
+
 var a = $(".navbar").offset().top;
 $(document).scroll(function() {
 if ($(this).scrollTop() > a) {
@@ -43,6 +46,8 @@ $('.nav-link').css({
 }
 });
 
+/*------------------
+  Gets current year in footer:
+--------------------*/
 
-// get current year in footer
 document.getElementById("year").innerHTML = new Date().getFullYear();
