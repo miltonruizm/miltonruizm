@@ -29,6 +29,8 @@ h2{
 	margin-bottom: 0.5em;
 	border-bottom: solid 2px #ffe6cd;
 }
+
+
 /************************* Styling Navbar ***************************/
 .nav-item:hover{
 	border-bottom: solid 2px lightgrey;
