@@ -13,3 +13,6 @@ https://codepen.io/dev_loop/pen/MWKbJmO/license
 
 CSS Image hover zoom effects:
 https://w3bits.com/css-image-hover-zoom/
+
+Preloder Walking Duck:
+https://github.com/MdUsmanAnsari
