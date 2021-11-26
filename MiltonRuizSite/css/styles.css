@@ -439,11 +439,20 @@ https://w3bits.com/css-image-hover-zoom/ : */
 	font-style: italic;
 	font-size: 110%;
   transition: 0.2s;
-
 }
 .read-more {
 	text-align: right;
 }
+.btn-primary{
+	background-color: transparent;
+	margin-top: 3em;
+	border: solid 2px #ffe6cd;
+}
+.btn-primary:hover{
+	background-color: #d4dae2;
+
+}
+
 /***************** Styling Team page *****************/
 .color-tab:hover{
 	background-color: #ebeef2;
