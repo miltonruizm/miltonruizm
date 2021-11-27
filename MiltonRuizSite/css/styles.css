@@ -108,7 +108,7 @@ h2{
 }
 .navbar-light .navbar-nav .nav-link {
 	transition: 2s;
-	color:blue;
+	color:black;
 }
 .navbar-light .navbar-nav .nav-link:hover {
 	font-weight: 500;
