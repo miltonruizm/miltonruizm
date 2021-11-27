@@ -41,7 +41,7 @@ $('.nav-link').css({
 });
 } else {
 $('.nav-link').css({
-  "color": "#999999"
+  "color": "#1a1a1a"
 });
 }
 });
