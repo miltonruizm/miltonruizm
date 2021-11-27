@@ -116,7 +116,7 @@ h2{
 .navbar {
 	background-color: white;
 	height: 4.5em;
-	transition: 2s;
+	transition: 1s;
 }
 .navbar .navbar-nav {
 	border: none;
@@ -540,16 +540,18 @@ https://w3bits.com/css-image-hover-zoom/ : */
 @media (max-width: 991px) {
  #navbarToggler-sm{
 	 margin-top: 0.5em;
-	 background-color:#102e50;
+	 /*background-color:#102e50;*/
+	 background-color: #276fc1;
 	 padding-right: 0px;
  }
  #navbarToggler-sm >li:hover{
 	 background-color: #1a4a81;
 	 border-bottom: none;
  }
- .navbar-nav > li > a {
- 	color: #EE9B00;
- }
+
+/* .navbar-nav > li > a {
+ 	color: yellow;
+ } */
 .nav-link a:hover{
  border-bottom: hidden
 }
