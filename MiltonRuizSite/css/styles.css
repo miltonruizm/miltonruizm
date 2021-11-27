@@ -535,6 +535,17 @@ https://w3bits.com/css-image-hover-zoom/ : */
 	display: none;
 }
 }
+
+@media (max-width: 389px) {
+	.arrows span{
+		font-size:1.2em;
+		color: black;
+		font-weight: bold;
+		border-bottom: solid 2px #ffe6cd;
+		padding-left: 0.1em;
+		padding-right:0.1em;
+	}
+}
 /***************** For Small devices *****************/
 @media (max-width: 991px) {
  #navbarToggler-sm{
@@ -619,12 +630,4 @@ https://w3bits.com/css-image-hover-zoom/ : */
  .display-research-lg{
 	 display:none;
  }
-}
-.arrows span{
-	font-size:1.25em;
-	color: black;
-	font-weight: bold;
-	border-bottom: solid 2px #ffe6cd;
-	padding-left: 0.2em;
-	padding-right:0.2em;
 }
