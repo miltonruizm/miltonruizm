@@ -450,8 +450,75 @@ https://w3bits.com/css-image-hover-zoom/ : */
 }
 .btn-primary:hover{
 	background-color: #d4dae2;
-
 }
+/******** arrows ********/
+
+.arrows span{
+	font-size:1.25em;
+	color: black;
+	font-weight: bold;
+	border-bottom: solid 2px #ffe6cd;
+	padding-left: 0.5em;
+	padding-right:0.5em;
+}
+.arrows span:hover{
+	color:darkgrey;
+	font-size:150%;
+	transition: 0.2s;
+}
+.arrows div {
+	 position: relative;
+	 padding-top: 4em;
+	 padding-bottom: 4em;
+	 top: 80%;
+	 left:50%;
+	 transform: translate(-50%, -50%);
+}
+.arrows div svg {
+	 width: 30px;
+	 height: auto;
+	 margin: 0 2rem;
+	 cursor: pointer;
+	 overflow: visible;
+}
+.arrows div svg polygon, div svg path {
+	 transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+}
+.arrows div svg:hover polygon, div svg:hover path {
+	 transition: all 1s cubic-bezier(0.2, 1, 0.3, 1);
+	 fill: #CA6702;;
+}
+.arrows div svg:hover .arrow {
+	 animation: arrow-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+.arrows div svg:hover .arrow-fixed {
+	 animation: arrow-fixed-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+ @keyframes arrow-anim {
+	 0% {
+		 opacity: 1;
+		 transform: translateX(0);
+	}
+	 5% {
+		 transform: translateX(-0.1rem);
+	}
+	 100% {
+		 transform: translateX(1rem);
+		 opacity: 0;
+	}
+}
+ @keyframes arrow-fixed-anim {
+	 5% {
+		 opacity: 0;
+	}
+	 20% {
+		 opacity: 0.4;
+	}
+	 100% {
+		 opacity: 1;
+	}
+}
+
 
 /***************** Styling Team page *****************/
 .color-tab:hover{
