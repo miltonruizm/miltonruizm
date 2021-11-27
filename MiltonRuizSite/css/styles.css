@@ -541,7 +541,6 @@ https://w3bits.com/css-image-hover-zoom/ : */
 	 margin-top: 0.5em;
 	 background-color:#102e50;
 	 padding-right: 0px;
-
  }
  #navbarToggler-sm >li:hover{
 	 background-color: #1a4a81;
@@ -556,7 +555,6 @@ https://w3bits.com/css-image-hover-zoom/ : */
 #middle-line-menu{
 	margin-top:-3px;
 	margin-bottom:-3px;
-
 }
  .toggle {
    position: absolute;
@@ -564,7 +562,6 @@ https://w3bits.com/css-image-hover-zoom/ : */
    cursor: pointer;
 	 border:none;
 	 bottom:0;
-
  }
  .toggle span {
    display: block;
@@ -622,4 +619,12 @@ https://w3bits.com/css-image-hover-zoom/ : */
  .display-research-lg{
 	 display:none;
  }
+}
+.arrows span{
+	font-size:1.25em;
+	color: black;
+	font-weight: bold;
+	border-bottom: solid 2px #ffe6cd;
+	padding-left: 0.2em;
+	padding-right:0.2em;
 }
