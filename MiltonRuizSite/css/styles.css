@@ -104,11 +104,11 @@ h2{
 .navbar-light .navbar-nav .nav-link.active:hover{
 }
 .navbar-light .navbar-nav .nav-link.active{
-	color: #1a1a1a;
+	color: #999999;
 }
 .navbar-light .navbar-nav .nav-link {
 	transition: 2s;
-	color:#1a1a1a;
+	color:blue;
 }
 .navbar-light .navbar-nav .nav-link:hover {
 	font-weight: 500;
