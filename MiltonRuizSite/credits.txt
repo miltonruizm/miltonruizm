@@ -16,3 +16,6 @@ https://w3bits.com/css-image-hover-zoom/
 
 Preloder Walking Duck:
 https://github.com/MdUsmanAnsari
+
+SVG Arrow next previous animation
+https://github.com/karimhossenbux
