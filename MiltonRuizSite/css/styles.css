@@ -327,10 +327,10 @@ h2{
 }
 .info-developer a{
 	text-decoration: none;
-	color: #FC0254;
+	color: #EE9B00;
 }
 .info-developer a:hover{
-	color: #FC027e;
+	color: pink;
 }
 .fa-envelope{
 	color:grey;
