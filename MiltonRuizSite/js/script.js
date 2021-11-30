@@ -20,31 +20,70 @@ $(this).toggleClass("active");
   Makes all navbar(s) color changes when scrolling:
 --------------------*/
 
-var a = $(".navbar").offset().top;
-$(document).scroll(function() {
-if ($(this).scrollTop() > a) {
-$('.navbar').css({
-  "background": "#102e50"
-});
-} else {
-$('.navbar').css({
-  "background": "white"
-});
-}
+//var a = $(".navbar").offset().top;
+//$(document).scroll(function() {
+
+//if ($(this).scrollTop() > a) {
+//$('.navbar').css({
+//  "background": "#102e50"
+//});
+//} else {
+//$('.navbar').css({
+//  "background": "white"
+//});
+//}
+//});
+
+$(window).scroll(function(){
+    var scroll = $(window).scrollTop();
+    if(scroll < 300){
+        $('.navbar').css('background', 'white');
+    } else{
+        $('.navbar').css('background', '#102e50');
+    }
 });
 
-var a = $(".nav-link").offset().top;
-$(document).scroll(function() {
-if ($(this).scrollTop() > a) {
-$('.nav-link').css({
-  "color": "#d4dae2"
+$(window).scroll(function(){
+    var scroll = $(window).scrollTop();
+    if(scroll < 300){
+        $('.nav-link').css('color', 'black');
+    } else{
+        $('.nav-link').css('color', '#d4dae2');
+    }
 });
-} else {
-$('.nav-link').css({
-  "color": "black"
-});
+
+
+/*------------------
+  Scroll to Top Button:
+--------------------*/
+//Get the button
+let mybutton = document.getElementById("btn-back-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
 }
-});
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
+
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+
+
 
 /*------------------
   Gets current year in footer:
