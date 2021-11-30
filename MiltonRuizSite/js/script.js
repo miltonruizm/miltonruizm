@@ -19,7 +19,7 @@ $(this).toggleClass("active");
 /*------------------
   Makes all navbar(s) color changes when scrolling:
 --------------------*/
-
+// Option 1
 //var a = $(".navbar").offset().top;
 //$(document).scroll(function() {
 
