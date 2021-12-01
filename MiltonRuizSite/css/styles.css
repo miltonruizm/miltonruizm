@@ -127,6 +127,11 @@ h2{
 	width: 25px;
 	height: 25px;
 }
+.flag-en{
+	width:25px;
+	height:25px;
+	border-radius: 13px;
+}
 #container-navbar{
 	margin-right: 3em;
 }
@@ -225,6 +230,7 @@ h2{
 }
 .pic-self p{
 	font-size: 1.25em;
+	width: auto;
 }
 .pic-self .col-xl-3{
 	margin: auto;
@@ -327,7 +333,7 @@ h2{
  padding-top: 2em;
 }
 .info-footer{
-	background-color: none;
+	background-color: transparent;
 	padding: 2em;
 	text-align: right;
 	color:#d4dae2;
