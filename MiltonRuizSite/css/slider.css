@@ -188,7 +188,7 @@
 	 position: absolute;
 	 width: calc(3 * var(--card-width));
 	 height: var(--card-height);
-	 pointer-events: none;
+	 /*pointer-events: none; */
 }
  .infoList .info__wrapper {
 	 position: relative;
