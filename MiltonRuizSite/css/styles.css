@@ -254,14 +254,25 @@ h2{
 .info-developer a:hover{
 	color: pink;
 }
-.fa-envelope{
+.fa-envelope {
 	color:grey;
 	font-size: 2em;
 }
 .fa-envelope:hover{
 	color:darkgrey;
 }
-.github-mark{
+.fa-github{
+	color:grey;
+	font-size:2em;
+	margin-right: 2em;
+}
+.fa-github:hover{
+	color: darkgrey;
+}
+.info-footer a{
+	text-decoration: none;
+}
+/* .github-mark{
 	vertical-align: top;
 	text-decoration: none;
 	margin-right: 2em;
@@ -269,7 +280,7 @@ h2{
 }
 .github-mark:hover{
 	filter: brightness(70%);
-}
+} */
 /***************** Styling Bio page *****************/
 .bio a{
 	color: #282828;
