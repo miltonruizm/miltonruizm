@@ -353,6 +353,16 @@ https://w3bits.com/css-image-hover-zoom/ : */
 .research-text{
 	width:90%;
 }
+.link {
+	color: #282828;
+	font-weight: bold;
+	text-decoration: none;
+}
+.link:hover{
+	font-size: 110%;
+	transition: 0.2s;
+	color: darkgrey;
+}
 .read-more a{
 	color:darkorange;
 	font-style: italic;
