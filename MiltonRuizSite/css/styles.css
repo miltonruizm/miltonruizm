@@ -269,18 +269,19 @@ h2{
 .fa-github:hover{
 	color: darkgrey;
 }
+
+.fa-orcid{
+	color:grey;
+	font-size:2em;
+	margin-right: 2em;
+}
+.fa-orcid:hover{
+	color: darkgrey;
+}
 .info-footer a{
 	text-decoration: none;
 }
-/* .github-mark{
-	vertical-align: top;
-	text-decoration: none;
-	margin-right: 2em;
-	filter: brightness(50%);
-}
-.github-mark:hover{
-	filter: brightness(70%);
-} */
+
 /***************** Styling Bio page *****************/
 .bio a{
 	color: #282828;
