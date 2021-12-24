@@ -20,9 +20,9 @@ $(this).toggleClass("active");
   AOS Animation
 --------------------*/
 
-AOS.init({
-	easing: 'ease-in-out-sine'
-});
+// AOS.init({
+// 	easing: 'ease-in-out-sine'
+// });
 // To make asynchronous animations:
 // setInterval(addItem, 300);
 //
@@ -58,9 +58,10 @@ AOS.init({
 //}
 //});
 
+//Option 2
 $(window).scroll(function(){
     var scroll = $(window).scrollTop();
-    if(scroll < 300){
+    if(scroll < 100){
         $('.navbar').css('background', 'white');
     } else{
         $('.navbar').css('background', '#102e50');
@@ -69,7 +70,7 @@ $(window).scroll(function(){
 
 $(window).scroll(function(){
     var scroll = $(window).scrollTop();
-    if(scroll < 300){
+    if(scroll < 100){
         $('.nav-link').css('color', 'black');
     } else{
         $('.nav-link').css('color', '#d4dae2');
