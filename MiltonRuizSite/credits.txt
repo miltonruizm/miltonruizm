@@ -19,3 +19,6 @@ https://github.com/MdUsmanAnsari
 
 SVG Arrow next previous animation
 https://github.com/karimhossenbux
+
+Animations all over the page:
+https://alvarotrigo.com
