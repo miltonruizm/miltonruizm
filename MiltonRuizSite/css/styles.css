@@ -21,6 +21,16 @@ body {
   opacity: 1;
 }
 
+.revealhead {
+  position: relative;
+  transform: translateX(3000px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+.revealhead.active {
+  transform: translateX(0);
+  opacity: 1;
+}
 /************************* General **********************************/
 
 h1 {
