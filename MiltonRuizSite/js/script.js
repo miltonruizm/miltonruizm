@@ -17,27 +17,25 @@ $(this).toggleClass("active");
 });
 
 /*------------------
-  AOS Animation
+   Animations
 --------------------*/
+function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
 
-// AOS.init({
-// 	easing: 'ease-in-out-sine'
-// });
-// To make asynchronous animations:
-// setInterval(addItem, 300);
-//
-// var itemsCounter = 1;
-// var container = document.getElementById('aos-demo');
-//
-// function addItem () {
-// 	if (itemsCounter > 4) return;
-// 	var item = document.createElement('div');
-// 	item.classList.add('aos-item');
-// 	item.setAttribute('data-aos', 'fade-up');
-// 	item.innerHTML = '<div class="aos-item__inner"><h3>' + itemsCounter + '</h3></div>';
-// 	container.appendChild(item);
-// 	itemsCounter++;
-// };
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
 
 
 /*------------------
