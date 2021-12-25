@@ -55,6 +55,24 @@ function revealhead() {
 
 window.addEventListener("scroll", revealhead);
 
+
+function revealslider() {
+  var revealsliders = document.querySelectorAll(".revealslider");
+
+  for (var i = 0; i < revealsliders.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = revealsliders[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      revealsliders[i].classList.add("active");
+    } else {
+      revealsliders[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", revealslider);
 /*------------------
   Makes all navbar(s) color changes when scrolling:
 --------------------*/

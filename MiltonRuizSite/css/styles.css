@@ -20,7 +20,6 @@ body {
   transform: translateY(0);
   opacity: 1;
 }
-
 .revealhead {
   position: relative;
   transform: translateX(3000px);
@@ -29,6 +28,16 @@ body {
 }
 .revealhead.active {
   transform: translateX(0);
+  opacity: 1;
+}
+.revealslider {
+  position: relative;
+  transform: scale(70%);
+  opacity: 0;
+  transition: 3s all ease;
+}
+.revealslider.active {
+  transform: scale(100%);
   opacity: 1;
 }
 /************************* General **********************************/
