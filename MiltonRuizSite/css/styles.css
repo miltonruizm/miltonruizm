@@ -22,7 +22,7 @@ body {
 }
 .revealhead {
   position: relative;
-  transform: translateX(3000px);
+  transform: translateX(300px);
   opacity: 0;
   transition: 1s all ease;
 }
