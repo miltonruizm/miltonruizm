@@ -23,20 +23,20 @@ body {
 .revealhead {
   position: relative;
   /* transform: translateX(300px); */
-	transform: rotateX(180deg);
+	transform: rotateX(90deg);
   opacity: 0;
   transition: 1s all ease;
 }
 .revealhead.active {
   /* transform: translateX(0); */
-	transform: rotateX(360deg);
+	transform: rotateX(0deg);
   opacity: 1;
 }
 .revealslider {
   position: relative;
   transform: scale(70%);
   opacity: 0;
-  transition: 3s all ease;
+  transition: 2s all ease;
 }
 .revealslider.active {
   transform: scale(100%);
