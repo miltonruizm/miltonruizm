@@ -8,7 +8,7 @@ body {
 }
 
 /***********************************/
-/*         AOS Animations          */
+/*         All Animations          */
 /***********************************/
 .reveal {
   position: relative;
@@ -42,6 +42,44 @@ body {
   transform: scale(100%);
   opacity: 1;
 }
+.revealresearch1 {
+  position: relative;
+  transform: rotateY(90deg);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.revealresearch1.active {
+  transform: rotateY(0deg);
+  opacity: 1;
+}.revealresearch2 {
+  position: relative;
+  transform: rotateY(90deg);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.revealresearch2.active {
+  transform: rotateY(0deg);
+  opacity: 1;
+}.revealresearch3 {
+  position: relative;
+  transform: rotateY(90deg);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.revealresearch3.active {
+  transform: rotateY(0deg);
+  opacity: 1;
+}.revealresearch4 {
+  position: relative;
+  transform: rotateY(90deg);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.revealresearch4.active {
+  transform: rotateY(0deg);
+  opacity: 1;
+}
+
 /************************* General **********************************/
 
 h1 {
@@ -415,6 +453,14 @@ https://w3bits.com/css-image-hover-zoom/ : */
 }
 .research-col{
 	padding-top: 3em;
+}
+.research-col img{
+	transition: transform 800ms, filter 800ms;
+	filter: grayscale(70%);
+}
+.research-col img:hover{
+	transform:scale(1.05);
+	filter: none;
 }
 .research-text{
 	width:90%;

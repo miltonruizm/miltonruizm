@@ -36,7 +36,7 @@ function reveal() {
 }
 window.addEventListener("scroll", reveal);
 
-
+/*-------*/
 function revealhead() {
   var revealheads = document.querySelectorAll(".revealhead");
 
@@ -52,9 +52,8 @@ function revealhead() {
     }
   }
 }
-
 window.addEventListener("scroll", revealhead);
-
+/*-------*/
 
 function revealslider() {
   var revealsliders = document.querySelectorAll(".revealslider");
@@ -71,8 +70,80 @@ function revealslider() {
     }
   }
 }
-
 window.addEventListener("scroll", revealslider);
+/*-------*/
+
+function revealresearch1() {
+  var revealresearch1s = document.querySelectorAll(".revealresearch1");
+
+  for (var i = 0; i < revealresearch1s.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = revealresearch1s[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      revealresearch1s[i].classList.add("active");
+    } else {
+      revealresearch1s[i].classList.remove("active");
+    }
+  }
+}
+window.addEventListener("scroll", revealresearch1);
+/*-------*/
+
+function revealresearch2() {
+  var revealresearch2s = document.querySelectorAll(".revealresearch2");
+
+  for (var i = 0; i < revealresearch2s.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = revealresearch2s[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      revealresearch2s[i].classList.add("active");
+    } else {
+      revealresearch2s[i].classList.remove("active");
+    }
+  }
+}
+window.addEventListener("scroll", revealresearch2);
+/*-------*/
+
+function revealresearch3() {
+  var revealresearch3s = document.querySelectorAll(".revealresearch3");
+
+  for (var i = 0; i < revealresearch3s.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = revealresearch3s[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      revealresearch3s[i].classList.add("active");
+    } else {
+      revealresearch3s[i].classList.remove("active");
+    }
+  }
+}
+window.addEventListener("scroll", revealresearch3);
+/*-------*/
+
+function revealresearch4() {
+  var revealresearch4s = document.querySelectorAll(".revealresearch4");
+
+  for (var i = 0; i < revealresearch4s.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = revealresearch4s[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      revealresearch4s[i].classList.add("active");
+    } else {
+      revealresearch4s[i].classList.remove("active");
+    }
+  }
+}
+window.addEventListener("scroll", revealresearch4);
+
 /*------------------
   Makes all navbar(s) color changes when scrolling:
 --------------------*/
