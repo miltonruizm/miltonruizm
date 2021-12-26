@@ -22,12 +22,13 @@ body {
 }
 .revealhead {
   position: relative;
-  transform: translateX(300px);
+  /* transform: translateX(300px); */
+	transform:
   opacity: 0;
   transition: 1s all ease;
 }
 .revealhead.active {
-  transform: translateX(0);
+  /* transform: translateX(0); */
   opacity: 1;
 }
 .revealslider {
