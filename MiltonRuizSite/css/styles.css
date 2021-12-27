@@ -678,4 +678,9 @@ https://w3bits.com/css-image-hover-zoom/ : */
 		padding-left: 0.1em;
 		padding-right:0.1em;
 	}
+
+  .arrows div svg {
+	  width: 25px;
+		margin: 0 1rem;
+	}
 }
