@@ -92,10 +92,11 @@ h1 {
 h1 > a{
 	color: #CA6702;
 	text-decoration: none;
+	transition:0.4s;
 }
 h1 > a:hover{
 	font-size: 1.1em;
-	transition: 0.2s;
+	transition: 0.4s;
 	color: #d9944d;
 }
 h2{
@@ -280,10 +281,11 @@ h2{
 	color: black;
 	font-weight: bold;
 	text-decoration: none;
+	transition: 0.4s;
 }
 .news a:hover{
 	font-size: 115%;
-	transition:0.2s;
+	transition:0.4s;
 	color: darkgrey;
 }
 .news ol {
@@ -341,9 +343,11 @@ h2{
 .info-developer a{
 	text-decoration: none;
 	color: #EE9B00;
+	transition: 0.4s;
 }
 .info-developer a:hover{
 	color: pink;
+	transition: 0.4s;
 }
 .fa-envelope {
 	color:grey;
@@ -378,10 +382,11 @@ h2{
 	color: #282828;
 	font-weight: bold;
 	text-decoration: none;
+	transition: 0.4s;
 }
 .bio a:hover{
 	font-size: 110%;
-	transition:0.2s;
+	transition:0.4s;
 	color: darkgrey;
 }
 .bio-header div .info{
@@ -419,11 +424,11 @@ h2{
 }
 .research-header a{
 	text-decoration: none;
-
+	transition: 0.4s;
 }
 a >h2:hover{
  font-size: 2.1em;
- transition: 0.2s;
+ transition: 0.4s;
  color: #d9944d;
 }
 .research-paragraph p{
@@ -486,12 +491,13 @@ https://w3bits.com/css-image-hover-zoom/ : */
 .read-more a{
 	color:darkorange;
 	font-style: italic;
+	transition:0.4s;
 }
 .read-more a:hover{
 	color:orange;
 	font-style: italic;
 	font-size: 110%;
-  transition: 0.2s;
+  transition: 0.4s;
 }
 .read-more {
 	text-align: right;
@@ -513,11 +519,12 @@ https://w3bits.com/css-image-hover-zoom/ : */
 	border-bottom: solid 2px #ffe6cd;
 	padding-left: 0.5em;
 	padding-right:0.5em;
+	transition: 0.4s;
 }
 .arrows span:hover{
 	color:darkgrey;
 	font-size:150%;
-	transition: 0.2s;
+	transition: 0.4s;
 }
 .arrows div {
 	 position: relative;
